@@ -68,7 +68,7 @@ class App extends Component {
     return (
       <>
         <Header />
-        <Search updateUI={this.updateUI}/>
+        <Search updateUI={this.updateUI} />
         <Phonetics phonetics={this.state.phonetics} /> 
         <Definitions meanings={this.state.meanings}/>
         <Footer />

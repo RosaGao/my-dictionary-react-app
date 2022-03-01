@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function Definitions(props) {
     const { meanings } = props;
 
@@ -35,3 +37,7 @@ function Definitions(props) {
 }
   
 export default Definitions;
+
+Definitions.propTypes = {
+    meanings: PropTypes.array.isRequired
+};
